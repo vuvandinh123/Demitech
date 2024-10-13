@@ -71,6 +71,39 @@ export default function ListsCardHover() {
           alt=""
           className=" absolute -z-10 left-[30%] top-2/3   object-cover"
         />
+        <svg
+          id="sw-js-blob-svg"
+          className="w-52 left-[25%] -top-10 absolute"
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {" "}
+          <defs>
+            {" "}
+            <linearGradient id="sw-gradient" x1={0} x2={1} y1={1} y2={0}>
+              {" "}
+              <stop
+                id="stop1"
+                stopColor="rgba(248, 117, 55, 1)"
+                offset="0%"
+              />{" "}
+              <stop
+                id="stop2"
+                stopColor="rgba(251, 168, 31, 1)"
+                offset="100%"
+              />{" "}
+            </linearGradient>{" "}
+          </defs>{" "}
+          <path
+            fill="url(#sw-gradient)"
+            d="M24.7,-31.7C31.2,-29.3,35.1,-21,34.9,-13.3C34.7,-5.6,30.4,1.4,25.9,6.4C21.5,11.3,16.9,14.1,12.5,16.5C8.2,18.9,4.1,21,0.2,20.7C-3.7,20.4,-7.3,17.8,-13.1,15.8C-18.9,13.8,-26.8,12.6,-31,8.1C-35.3,3.6,-35.8,-4.1,-34,-11.5C-32.2,-18.8,-28.1,-25.9,-22,-28.4C-15.9,-31,-8,-29.1,0.6,-29.9C9.1,-30.6,18.2,-34.1,24.7,-31.7Z"
+            width="100%"
+            height="100%"
+            transform="translate(50 50)"
+            strokeWidth={0}
+            style={{ transition: "0.3s" }}
+          />{" "}
+        </svg>
       </div>
       <div className="relative z-10">
         <HoverEffect items={projects} className="my-5 z-10" />

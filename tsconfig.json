@@ -19,6 +19,7 @@
     ],
     "paths": {
       "@/public/*": ["./public/*"],
+      "@/hooks/*": ["./src/hooks/*"],
       "@/data/*": ["./src/data/*"],
       "@/*": ["./src/*"]
     }

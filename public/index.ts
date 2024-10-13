@@ -1,8 +1,12 @@
-import logoGoogle from "./images/brands/logos_google.jpg";
-import logoMicrosoft from "./images/brands/logos_microsoft.jpg";
-import logoLg from "./images/brands/simple-icons_lg.jpg";
-import logoSamsung from "./images/brands/simple-icons_samsung.jpg";
-import logoSony from "./images/brands/simple-icons_sony.jpg";
-import logoTh from "./images/brands/thuonghieu.jpg";
+import logoGoogle from "./images/brands/airmeet-logo-512.png";
+import logoMicrosoft from "./images/brands/cohere-logo-512.png";
+import logoLg from "./images/brands/harver-logo-512.png";
+import logoSamsung from "./images/brands/laravel-scout-logo-512.png";
+import logoSony from "./images/brands/rome2rio-logo-512.png";
 export {
+    logoGoogle,
+    logoMicrosoft,
+    logoLg,
+    logoSamsung,
+    logoSony,
 }
