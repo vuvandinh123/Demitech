@@ -21,10 +21,10 @@ export default function Technologies() {
       <div>
         <Marquee pauseOnHover className="[--duration:20s]">
           <div>
-            <img src="https://i0.wp.com/timoday.edu.vn/wp-content/uploads/2020/01/java.jpg?fit=256%2C256&ssl=1?v=1641581387" alt="" />
+            <Image src="https://i0.wp.com/timoday.edu.vn/wp-content/uploads/2020/01/java.jpg?fit=256%2C256&ssl=1?v=1641581387" alt="" />
           </div>
           <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOgcDhF3YAyREbp0xe4-QLF61A5DIIXUwSw&s" alt="" />
+            <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOgcDhF3YAyREbp0xe4-QLF61A5DIIXUwSw&s" alt="" />
           </div>
         </Marquee>
       </div>

@@ -3,7 +3,6 @@ import image from "@/public/mainimage.jpg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import BlurFade from "@/components/ui/blur-fade";
-import RetroGrid from "@/components/ui/retro-grid";
 const BLUR_FADE_DELAY = 0.04;
 export default function MainText() {
   return (

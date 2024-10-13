@@ -11,7 +11,7 @@ const config = {
   prefix: "",
   theme: {
   	container: {
-  		center: 'true',
+  		center: true,
   		padding: '2rem',
   		screens: {
   			'2xl': '1400px'
@@ -109,12 +109,12 @@ const config = {
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
   		},
   		boxShadow: {
-  			section: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
-  			cardService: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;'
+  			section: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+  			cardService: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate")]
 } satisfies Config
 
 export default config
